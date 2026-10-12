@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="420" viewBox="0 0 560 420" role="img" aria-label="독서량을 관리하는 1세대 관리형 독서에서 읽기 능력을 변화시키는 훈련형 독서로">
+  <defs><filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".10"/></filter>
+  <style>.f{font-family:-apple-system,&quot;Apple SD Gothic Neo&quot;,&quot;Pretendard&quot;,&quot;Malgun Gothic&quot;,sans-serif}</style></defs>
+  <rect width="560" height="420" rx="28" fill="#eef4fc"/>
+<g filter="url(#sh)"><rect x="30" y="50" width="220" height="320" rx="20" fill="#fff"/></g>
+  <text x="140" y="90" class="f" font-size="14" font-weight="800" fill="#6e6e73" text-anchor="middle">1세대 · 관리형</text>
+  <rect x="80" y="290" width="120" height="26" rx="5" fill="#d2d2d7"/><rect x="74" y="260" width="132" height="26" rx="5" fill="#c7c7cc"/><rect x="80" y="230" width="120" height="26" rx="5" fill="#e0e0e0"/><rect x="74" y="200" width="132" height="26" rx="5" fill="#d2d2d7"/><rect x="80" y="170" width="120" height="26" rx="5" fill="#c7c7cc"/>
+  <text x="140" y="140" class="f" font-size="30" font-weight="800" fill="#1d1d1f" text-anchor="middle">32권</text>
+  <text x="140" y="345" class="f" font-size="13" font-weight="600" fill="#6e6e73" text-anchor="middle">책을 얼마나 읽혔는가</text>
+  <g fill="#0066cc"><circle cx="280" cy="210" r="18"/><path d="M274 200l12 10-12 10" stroke="#fff" stroke-width="3.5" fill="none" stroke-linecap="round" stroke-linejoin="round"/></g>
+  <g filter="url(#sh)"><rect x="310" y="50" width="220" height="320" rx="20" fill="#0066cc"/></g>
+  <text x="420" y="90" class="f" font-size="14" font-weight="800" fill="#cfe6ff" text-anchor="middle">훈련형 · MDR</text>
+  <path d="M340 300h160M340 300V130" stroke="rgba(255,255,255,.35)" stroke-width="2"/>
+  <path d="M345 285 L 385 262 L 420 230 L 455 196 L 495 150" fill="none" stroke="#ffd60a" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="345" cy="285" r="6" fill="#fff"/><circle cx="385" cy="262" r="6" fill="#fff"/><circle cx="420" cy="230" r="6" fill="#fff"/><circle cx="455" cy="196" r="6" fill="#fff"/><circle cx="495" cy="150" r="6" fill="#fff"/>
+  <text x="420" y="345" class="f" font-size="13" font-weight="600" fill="#e6f0ff" text-anchor="middle">읽는 능력을 얼마나 변화시켰는가</text>
+</svg>

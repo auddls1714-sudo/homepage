@@ -1,0 +1,108 @@
+{
+    "board": "notice",
+    "updated": "2026-10-11 16:14",
+    "items": [
+        {
+            "title": "테스트",
+            "cat": "교육",
+            "date": "2026-10-11",
+            "body": "테스트",
+            "pinned": false,
+            "images": [
+                "assets/img/uploads/20261011-63b675648a85.jpg"
+            ],
+            "id": "098d3c0d55",
+            "created": "2026-10-11 16:14"
+        },
+        {
+            "id": "0cdc5ad7eb",
+            "cat": "시험",
+            "title": "제28회 한자능력검정시험",
+            "date": "2026-07-14",
+            "body": "",
+            "images": [],
+            "pinned": false,
+            "created": "2026-10-11 09:00"
+        },
+        {
+            "id": "ec9f345703",
+            "cat": "행사",
+            "title": "전국 나비독서 원장 워크샵",
+            "date": "2026-01-22",
+            "body": "",
+            "images": [],
+            "pinned": false,
+            "created": "2026-10-11 09:00"
+        },
+        {
+            "id": "3539d64218",
+            "cat": "시험",
+            "title": "제27회 한자능력검정시험 개최",
+            "date": "2026-01-22",
+            "body": "",
+            "images": [],
+            "pinned": false,
+            "created": "2026-10-11 09:00"
+        },
+        {
+            "id": "3190b8fc06",
+            "cat": "교육",
+            "title": "6월 신입 원장님 교육을 마치며",
+            "date": "2025-06-17",
+            "body": "",
+            "images": [],
+            "pinned": false,
+            "created": "2026-10-11 09:00"
+        },
+        {
+            "id": "11df2e746f",
+            "cat": "행사",
+            "title": "나비독서 워크샵을 성공리에 마쳤습니다",
+            "date": "2025-06-17",
+            "body": "",
+            "images": [],
+            "pinned": false,
+            "created": "2026-10-11 09:00"
+        },
+        {
+            "id": "de2025e74a",
+            "cat": "설명회",
+            "title": "독서 교육의 신세계, 2월 나비독서 설명회 안내",
+            "date": "2025-02-04",
+            "body": "",
+            "images": [],
+            "pinned": false,
+            "created": "2026-10-11 09:00"
+        },
+        {
+            "id": "0925276a72",
+            "cat": "설명회",
+            "title": "24년 마지막 문해력 직독직해 나비독서 줌 설명회 안내",
+            "date": "2024-12-30",
+            "body": "",
+            "images": [],
+            "pinned": false,
+            "created": "2026-10-11 09:00"
+        },
+        {
+            "id": "477c7f101f",
+            "cat": "설명회",
+            "title": "11월 나비독서 줌 설명회",
+            "date": "2024-11-25",
+            "body": "",
+            "images": [],
+            "pinned": false,
+            "created": "2026-10-11 09:00"
+        },
+        {
+            "id": "229a2abca6",
+            "cat": "교육",
+            "title": "10월 나비독서 학원장 교육 공지",
+            "date": "2024-09-05",
+            "body": "",
+            "images": [],
+            "pinned": false,
+            "created": "2026-10-11 09:00"
+        }
+    ]
+}

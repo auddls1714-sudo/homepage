@@ -1,0 +1,179 @@
+<!doctype html>
+<html lang="ko">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow">
+  <title>가맹 상담 신청 | 나비독서 가맹안내</title>
+  <meta name="description" content="나비독서 가맹 상담 · 사업설명회 신청. 전화 1661-3507 또는 온라인으로 신청하세요.">
+  <link rel="stylesheet" href="../assets/css/style.css">
+</head>
+<body data-root="../" data-cta="none">
+<main>
+  <section class="page-hero is-franchise">
+    <div class="container">
+      <p class="breadcrumb"><a href="../index.html">홈</a> › 가맹안내</p>
+      <h1>가맹 상담 신청</h1>
+      <p>남겨주신 연락처로 담당자가 직접 연락드립니다. 급하신 경우 전화로 바로 상담하세요.</p>
+      <p class="hero-tel"><a class="tel-call" href="tel:1661-3507" aria-label="가맹 상담 전화 1661-3507 걸기"><span class="tel-ico" aria-hidden="true">☎</span><span class="tel-label">가맹 상담</span><strong>1661-3507</strong></a></p>
+    </div>
+  </section>
+  <nav class="lnb" data-group="franchise" aria-label="가맹안내 메뉴"></nav>
+
+  <section class="block">
+    <div class="container form-wrap">
+      <div class="contact-side">
+        <span class="eyebrow">전화 상담</span>
+        <a class="tel-big" href="tel:1661-3507">1661-3507</a>
+        <p style="color:var(--ink-2)">전국 가맹 상담 대표번호</p>
+        <ul>
+          <li>창업 비용과 수익 구조 안내</li>
+          <li>지역별 개설 가능 여부 확인</li>
+          <li>사업설명회 일정 안내</li>
+          <li>기존 학원 과목 추가 상담</li>
+        </ul>
+        <p class="mt-24"><a class="btn kakao" style="background:#fee500;color:#191919" href="http://pf.kakao.com/_eWeTn/chat" target="_blank" rel="noopener">카카오톡으로 문의하기</a></p>
+      </div>
+
+      <form class="form" id="franchiseForm" action="send.php" method="post" novalidate>
+        <div class="row">
+          <div class="field" data-field="name">
+            <label for="f-name">이름 <span class="req">*</span></label>
+            <input type="text" id="f-name" name="name" autocomplete="name" required>
+            <p class="error">이름을 입력해 주세요.</p>
+          </div>
+          <div class="field" data-field="phone">
+            <label for="f-phone">연락처 <span class="req">*</span></label>
+            <input type="tel" id="f-phone" name="phone" autocomplete="tel" placeholder="010-0000-0000" required>
+            <p class="error">연락 가능한 번호를 입력해 주세요.</p>
+          </div>
+        </div>
+        <div class="row">
+          <div class="field" data-field="sido">
+            <label for="f-sido">희망 지역 <span class="req">*</span></label>
+            <select id="f-sido" name="sido" required>
+              <option value="">시 · 도 선택</option>
+              <option>서울</option><option>부산</option><option>대구</option><option>인천</option><option>광주</option><option>대전</option><option>울산</option><option>세종</option><option>경기</option><option>강원</option><option>충북</option><option>충남</option><option>전북</option><option>전남</option><option>경북</option><option>경남</option><option>제주</option>
+            </select>
+            <p class="error">희망 지역을 선택해 주세요.</p>
+          </div>
+          <div class="field">
+            <label for="f-region">상세 지역</label>
+            <input type="text" id="f-region" name="region" placeholder="예) 천안시 서북구">
+          </div>
+        </div>
+        <div class="field">
+          <label for="f-email">이메일</label>
+          <input type="email" id="f-email" name="email" autocomplete="email">
+        </div>
+        <div class="field">
+          <label id="type-label">관심 운영 형태</label>
+          <div class="chips" role="group" aria-labelledby="type-label">
+            <label><input type="radio" name="type" value="신규 창업" checked><span>신규 창업</span></label>
+            <label><input type="radio" name="type" value="기존 학원 과목 추가"><span>기존 학원 과목 추가</span></label>
+            <label><input type="radio" name="type" value="지역 지사"><span>지역 지사</span></label>
+            <label><input type="radio" name="type" value="사업설명회 참석"><span>사업설명회 참석</span></label>
+          </div>
+        </div>
+        <div class="field">
+          <label for="f-msg">문의 내용</label>
+          <textarea id="f-msg" name="message" placeholder="현재 운영 중인 학원이 있다면 함께 적어주세요."></textarea>
+        </div>
+        <input type="text" name="website" tabindex="-1" autocomplete="off" aria-hidden="true" style="position:absolute;left:-9999px">
+        <div class="agree field" data-field="agree">
+          <strong>개인정보 수집 · 이용 안내</strong><br>
+          수집 항목: 이름, 연락처, 희망 지역, 이메일, 문의 내용 / 목적: 가맹 상담 및 안내 / 보유 기간: 상담 목적 달성 후 지체 없이 파기
+          <label><input type="checkbox" name="agree" value="Y" required> 개인정보 수집 · 이용에 동의합니다 <span class="req">*</span></label>
+          <p class="error">개인정보 수집 · 이용에 동의해 주세요.</p>
+        </div>
+        <div class="agree field" data-field="agree3">
+          <strong>개인정보 제3자 제공 안내</strong><br>
+          제공받는 자: 선택한 희망 지역의 나비독서 담당 지사(지사장) / 제공 항목: 이름, 연락처, 희망 지역, 이메일, 관심 운영 형태, 문의 내용 / 제공 목적: 지역 가맹 상담 진행 / 보유 기간: 상담 목적 달성 후 지체 없이 파기<br>
+          동의하지 않을 수 있으며, 동의하지 않으면 온라인 상담 신청이 어렵습니다. 전화(1661-3507)로도 상담할 수 있습니다.
+          <label><input type="checkbox" name="agree3" value="Y" required> 지역 담당 지사에 신청 내용을 제공하는 데 동의합니다 <span class="req">*</span></label>
+          <p class="error">지역 담당 지사 제공에 동의해 주세요.</p>
+        </div>
+        <div class="form-msg" role="status" aria-live="polite"></div>
+        <button class="btn btn-primary" type="submit">상담 신청하기</button>
+      </form>
+    </div>
+  </section>
+
+  <section class="block alt">
+    <div class="container">
+      <div class="block-head">
+        <h2 class="block-title">자주 묻는 <em>질문</em></h2>
+      </div>
+      <div class="faq">
+        <details><summary>교육 경험이 없어도 가능할까요?</summary><div class="a">특화된 교재와 상세한 지도법 매뉴얼이 있어 누구든 쉽고 재미있게 운영할 수 있습니다.</div></details>
+        <details><summary>초기 비용이 많이 드나요?</summary><div class="a">적은 초기 투자로 안정적으로 운영할 수 있도록 설계되어 있습니다. 정확한 비용은 상담에서 안내해 드립니다.</div></details>
+        <details><summary>한 반에 몇 명까지 수업할 수 있나요?</summary><div class="a">무학년 시스템이라 한 교실에서 5~9명까지 수업할 수 있습니다.</div></details>
+      </div>
+    </div>
+  </section>
+</main>
+<script src="../assets/js/site-config.js"></script>
+<script src="../assets/js/common.js"></script>
+<script>
+(function () {
+  var form = document.getElementById('franchiseForm');
+  var msg = form.querySelector('.form-msg');
+  var btn = form.querySelector('button[type=submit]');
+
+  function setInvalid(name, bad) {
+    form.querySelector('[data-field="' + name + '"]').classList.toggle('invalid', bad);
+  }
+
+  // 희망 지역 목록: 관리자 > 상담 신청 관리 > 지역 · 지사 연결에서 정한 지역 (없으면 기본 시 · 도)
+  var sido = form.elements['sido'];
+  fetch('../assets/data/regions.json', { cache: 'no-cache' })
+    .then(function (r) { return r.ok ? r.json() : null; })
+    .then(function (d) {
+      if (!d || !d.regions || !d.regions.length) return;
+      var cur = sido.value;
+      sido.innerHTML = '<option value="">시 · 도 선택</option>';
+      d.regions.forEach(function (n) { var o = document.createElement('option'); o.value = o.textContent = n; sido.appendChild(o); });
+      sido.value = cur;
+    })
+    .catch(function () {});
+
+  form.addEventListener('submit', function (e) {
+    e.preventDefault();
+    var f = form.elements;
+    var name = f['name'].value.trim();
+    var phoneDigits = f['phone'].value.replace(/\D/g, '');
+    setInvalid('name', !name);
+    setInvalid('phone', phoneDigits.length < 9 || phoneDigits.length > 11);
+    setInvalid('sido', !f['sido'].value);
+    setInvalid('agree', !f['agree'].checked);
+    setInvalid('agree3', !f['agree3'].checked);
+    var firstBad = form.querySelector('.invalid input, .invalid select');
+    if (firstBad) { firstBad.focus(); return; }
+
+    btn.disabled = true; btn.textContent = '보내는 중...';
+    msg.className = 'form-msg';
+    Promise.resolve({ ok: false, message: 'preview' })
+      .then(function (res) {
+        if (!res.ok) throw new Error(res.message || 'fail');
+        msg.className = 'form-msg ok';
+        msg.textContent = '상담 신청이 접수되었습니다. ' + (res.branch ? res.branch + ' 담당자가' : '담당자가') + ' 곧 연락드리겠습니다.';
+        // 네이버폼 등 지사 신청서가 따로 있으면 바로가기 안내
+        if (res.link && /^https:\/\//.test(res.link)) {
+          var p = document.createElement('p'); p.className = 'branch-link';
+          p.appendChild(document.createTextNode((res.branch || '지역 지사') + ' 신청서도 작성해 주시면 더 빠르게 안내해 드립니다. '));
+          var a = document.createElement('a'); a.className = 'btn btn-outline btn-sm'; a.href = res.link; a.target = '_blank'; a.rel = 'noopener';
+          a.textContent = (res.branch || '지역 지사') + ' 신청서 열기 ↗';
+          p.appendChild(a); msg.appendChild(p);
+        }
+        form.reset();
+      })
+      .catch(function (err) {
+        msg.className = 'form-msg fail';
+        msg.textContent = '미리보기 사이트에서는 신청이 접수되지 않습니다. 상담은 전화(1661-3507)로 해 주세요.';
+      })
+      .then(function () { btn.disabled = false; btn.textContent = '상담 신청하기'; });
+  });
+})();
+</script>
+</body>
+</html>

@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="560" height="420" viewBox="0 0 560 420" role="img" aria-label="중등부: 교과서를 정확하게 읽고 내신 성적으로 연결하는 모습">
+  <defs><filter id="sh" x="-20%" y="-20%" width="140%" height="150%"><feDropShadow dx="0" dy="10" stdDeviation="12" flood-color="#000" flood-opacity=".08"/></filter>
+  <style>.f{font-family:-apple-system,&quot;Apple SD Gothic Neo&quot;,&quot;Pretendard&quot;,&quot;Malgun Gothic&quot;,sans-serif}.sr{font-family:&quot;Batang&quot;,&quot;Noto Serif KR&quot;,serif}</style></defs>
+  <rect width="560" height="420" rx="28" fill="#eef4fc"/>
+
+  <g transform="translate(60 70)" filter="url(#sh)"><rect width="210" height="270" rx="12" fill="#0066cc"/><rect x="14" y="0" width="14" height="270" fill="#004f9e"/>
+    <rect x="48" y="40" width="130" height="64" rx="8" fill="#fff" opacity=".95"/><text x="113" y="80" class="f" font-size="22" font-weight="800" fill="#0066cc" text-anchor="middle">교과서</text>
+    <rect x="48" y="140" width="130" height="8" rx="4" fill="rgba(255,255,255,.45)"/><rect x="48" y="164" width="130" height="8" rx="4" fill="rgba(255,255,255,.45)"/><rect x="48" y="188" width="130" height="8" rx="4" fill="rgba(255,255,255,.45)"/><rect x="48" y="212" width="78" height="8" rx="4" fill="rgba(255,255,255,.45)"/></g>
+  <g transform="translate(300 90)" filter="url(#sh)"><rect width="200" height="250" rx="18" fill="#fff"/>
+    <rect x="30" y="190" width="34" height="30" rx="6" fill="#a9cdf3"/><rect x="75" y="155" width="34" height="65" rx="6" fill="#a9cdf3"/><rect x="120" y="110" width="34" height="110" rx="6" fill="#0066cc"/>
+    <path d="M40 160 L 92 120 L 140 74" fill="none" stroke="#ff9f0a" stroke-width="4" stroke-linecap="round"/><path d="M128 72l14-2-4 14" fill="none" stroke="#ff9f0a" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <rect x="22" y="22" width="76" height="30" rx="15" fill="#e8f1fb"/><text x="60" y="43" class="f" font-size="15" font-weight="800" fill="#0066cc" text-anchor="middle">내신 UP</text></g>
+</svg>
